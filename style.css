@@ -1,0 +1,54 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+background-image: url(https://static.tildacdn.com/tild3033-3061-4565-b164-633136346561/bg.svg);
+text-align: center;
+
+
+}
+
+.background{
+  position:absolute;
+  right:0;
+  top:0;
+  width:55rem;
+  height:55rem;
+  z-index:-5;
+  background-image: url(https://optim.tildacdn.com/tild6366-3733-4235-b837-336431663237/-/format/webp/1_1.png);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link{
+  color:black;  
+  margin:1rem;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+  transition: 0.4s linear;
+  transform: scale(1,1);
+  color:rgb(241, 143, 159);
+}
+
+.registration{
+  width:400px !important;
+  height:500px !important;
+  background-color: white;
+  border-radius: 8px;
+  margin:30px;
+  margin-right: 100px;
+  padding:25px;
+  display: flex;
+  justify-content: space-between;
+    flex-direction: column;
+}
